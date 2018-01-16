@@ -29,6 +29,14 @@ MD5-summor inom parentes.
  * Tips.BLB (d0a83f77ad43be962e73a3dca0691d17)
  * Tips.DAT (cec3dfdd42e1cfdbb2b7046dec58ec68)
  * Tips.IDX (1496c82db7d5ab23a8cdbd8554dbc61d)
+ 
+## Beskrivning av dataformatet
+
+Det medföljande hjälpdokumentet har följande beskrivning av datat.
+
+> **Använder Postnummerguide ODBC, ADO eller liknande?**
+
+> Postnummerguide och Postnummerguiden innehåller en egenutvecklad databasmotor, som är särskilt lämpad för snabb åtkomst med stor datamängd.
 
 ## Genomgång datafiler
 
