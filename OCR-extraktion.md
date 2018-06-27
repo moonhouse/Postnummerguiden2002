@@ -9,7 +9,9 @@ I en första ansats tänkte jag köra programmet under Windows-emulatorn [Wine](
 wine: Unhandled exception 0x0eedfade in thread 9 at address 0x7b4446ea:0x7b427499 (thread 0009), starting debugger...
 0009:err:seh:start_debugger Couldn't start debugger
 ```
-visade sig vara svårt. Därför fick alternativet bli att starta sin gamla iMac med Bootcamp och Windows 7.
+visade sig vara svårt. En senare version av Postnummerguiden (2007) [omnämns i WineHQ:s lista över program](https://appdb.winehq.org/objectManager.php?sClass=application&iId=6512) och [ska fungera enligt två rapporter](https://appdb.winehq.org/objectManager.php?sClass=version&iId=10485). Av bilden att döma är den versionen väsentligt annorlunda (och omfattas ändå av katalogskydd fortfarande).
+
+Därför fick alternativet bli att starta sin gamla iMac med Bootcamp och Windows 7.
 
 Med [Autohotkey](https://autohotkey.com/) kan man skriva skript som körs automatiskt vid en knapptryckning. Den stöder att skicka knapptryckningar, anropa andra program och loopar vilket räcker för att (i pseudokod):
 
